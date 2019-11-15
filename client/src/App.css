@@ -29,7 +29,7 @@ nav h2, nav a{
 
 #footer{
   width: 100%;  
-  background: black;
+  background: gray;
   color: white;
   display: flex;
   justify-content: space-around;
