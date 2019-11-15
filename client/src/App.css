@@ -1,3 +1,7 @@
+body{
+  background: #77E8C9;
+}
+
 #header{
   background: black;
   color: white;
@@ -5,6 +9,7 @@
   justify-content: space-between;
   flex-wrap: wrap;
   height: 90px;
+  width: 100%;  
 }
 #header h1{
   line-height: 90px;
@@ -18,13 +23,18 @@ justify-content: space-evenly;
 }
 nav h2, nav a{
   margin: auto;
-  padding: auto 20px;
+  padding: 0 10px;
 
 }
 
 #footer{
+  width: 100%;  
   background: black;
   color: white;
   display: flex;
   justify-content: space-around;
+}
+
+#footer p{
+  margin: auto 0;
 }
