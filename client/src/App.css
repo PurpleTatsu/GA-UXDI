@@ -22,10 +22,10 @@ body {
 }
 
 #header h2 {
-    font-family: Raleway;
-    font-size: 15px;
-    font-weight: 500;
-    color: #000000;
+  font-family: Raleway;
+  font-size: 15px;
+  font-weight: 500;
+  color: #000000;
 }
 
 #header h2:hover {
@@ -88,6 +88,7 @@ nav {
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
+  cursor: pointer;
 }
 
 .triangle {
@@ -96,6 +97,42 @@ nav {
   border-top: 15px solid #ffffff;
   margin-top: 5px;
 }
+
+
+.triangle:hover {
+  animation: oval-hover infinite 2s;
+  animation-timing-function:linear;
+}
+.oval:hover {
+  animation: oval-hover infinite 2s;
+  animation-timing-function:linear;
+}
+
+@keyframes oval-hover {
+  0% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+
+  25% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  26% {
+    opacity: 0;
+    transform: translateY(-10px) scale(0.9);
+  }
+
+  55% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
+
+
+
+
 
 /* .scroll-down {
 	position: absolute;
@@ -135,7 +172,7 @@ nav {
 .welcome-second-image {
   background: url('https://i.imgur.com/VHiATvZ.png');
   height: 383px;
-  background-size: contain;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: flex-end;
