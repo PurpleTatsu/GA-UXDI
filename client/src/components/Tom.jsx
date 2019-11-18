@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 
 export default function Tom(props) {
@@ -7,7 +6,7 @@ export default function Tom(props) {
     <div id="artist">
   
       <h4>Tom Lehman</h4>
-      <p>ART OF CHOICE: Pen & Ink and Watercolor</p>
+      <p>ART OF CHOICE: Pen and Ink and Watercolor</p>
   
          <p>https://www.facebook.com/toms.artspace</p>
   
