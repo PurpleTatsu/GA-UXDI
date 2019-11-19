@@ -22,10 +22,10 @@ body {
 }
 
 #header h2 {
-    font-family: Raleway;
-    font-size: 15px;
-    font-weight: 500;
-    color: #000000;
+  font-family: Raleway;
+  font-size: 15px;
+  font-weight: 500;
+  color: #000000;
 }
 
 #header h2:hover {
@@ -88,6 +88,7 @@ nav {
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
+  cursor: pointer;
 }
 
 .triangle {
@@ -96,6 +97,76 @@ nav {
   border-top: 15px solid #ffffff;
   margin-top: 5px;
 }
+
+.triangle:hover {
+  animation: oval-hover infinite 2s;
+  animation-timing-function:linear;
+}
+.oval:hover {
+  animation: oval-hover infinite 2s;
+  animation-timing-function:linear;
+}
+
+@keyframes oval-hover {
+  0% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+
+  25% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  26% {
+    opacity: 0;
+    transform: translateY(-10px) scale(0.9);
+  }
+
+  55% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
+
+
+
+
+
+/* .scroll-down {
+	position: absolute;
+	bottom: 5%;
+	text-shadow: 0;
+  width: 13px;
+  height: 13px;
+  border-bottom: 2px solid #fff;
+  border-right: 2px solid #fff;
+  z-index: 9;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0%) rotate(45deg);
+  -moz-transform: translate(-50%, 0%) rotate(45deg);
+  transform: translate(-50%, 0%) rotate(45deg);
+	-webkit-animation: fade_move_down 4s ease-in-out infinite;
+	-moz-animation:    fade_move_down 4s ease-in-out infinite;
+	animation:         fade_move_down 4s ease-in-out infinite;
+} */
+
+/*animated scroll arrow animation*/
+/* @-webkit-keyframes fade_move_down {
+  0%   { -webkit-transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { -webkit-transform:translate(0,10px) rotate(45deg); opacity: 0; }
+}
+@-moz-keyframes fade_move_down {
+  0%   { -moz-transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { -moz-transform:translate(0,10px) rotate(45deg); opacity: 0; }
+}
+@keyframes fade_move_down {
+  0%   { transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { transform:translate(0,10px) rotate(45deg); opacity: 0; }
+} */
 
 .welcome-second-image {
   background: url('https://i.imgur.com/VHiATvZ.png');

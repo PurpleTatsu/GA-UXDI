@@ -6,13 +6,15 @@ export default function Home(props) {
     <main>
       <div id="welcome">
         <div className="welcome-image">
-          <div className="oval">
-            <div className="triangle"></div>
-          </div>
+          <a href='#mission'>
+            <div className="oval">
+              <div className="triangle"></div>
+            </div>
+          </a>
           <div className="scroll-down"></div>
         </div>
       </div>
-      <div className="mission">
+      <div id='mission' className="mission">
         <h3>MISSION STATEMENT</h3>
         <p>The Riverside Art Center (RAC) is a non-profit arts corporation dedicated to the promotion of fine art. RAC
           serves the greater Wapakoneta area, providing art related, educational opportunities through classes, lectures and
