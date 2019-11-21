@@ -12,7 +12,7 @@ export default function AllArtists(props) {
           <h3>Tom Lehman</h3>
           <p>Pen & Ink and Watercolor</p>
           <Link to="/Tom">
-            <button>See More</button>
+            <button id = "button-artists">See More</button>
           </Link>
         </div>
 
@@ -21,7 +21,7 @@ export default function AllArtists(props) {
           <h3>Nancy Cunningham</h3>
           <p>Silk and Acrylic</p>
           <Link to="/Nancy">
-            <button>See More</button>
+            <button id = "button-artists" >See More</button>
           </Link>
         </div>
 
@@ -30,7 +30,7 @@ export default function AllArtists(props) {
           <h3>Terry Lynne Blosser</h3>
           <p>Watercolor</p>
           <Link to="/Terri">
-            <button>See More</button>
+            <button id = "button-artists">See More</button>
           </Link>
         </div>
       </div>

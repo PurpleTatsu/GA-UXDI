@@ -19,6 +19,7 @@ export default function Header(props) {
           <img src="https://i.imgur.com/rUezSfU.png" alt="Riverside Art Center Logo" />
         </Link>
       </div>
+
       <nav id="main-menu" class="main-menu" aria-label="Main menu">
         <a href="#main-menu-toggle"
           id="main-menu-close"
