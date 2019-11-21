@@ -182,9 +182,9 @@ header {
 }
 
 #header img {
-  width: 70%;
   margin-left: 25px;
   height: 100px;
+  width: auto;
 }
 
 #header h2 {

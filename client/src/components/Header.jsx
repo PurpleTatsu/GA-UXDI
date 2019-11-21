@@ -28,7 +28,7 @@ export default function Header(props) {
           <span>x</span>
         </a>
         <ul className="header-flex">
-          <li><h2>Home</h2></li>
+          <li><Link to="/"><h2>Home</h2></Link></li>
           <li><h2>About</h2></li>
           <li className="artist-anchor-tag">
             <Link to="/artists">
