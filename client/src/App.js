@@ -8,6 +8,7 @@ import Home from './components/Home';
 // import Tom from './components/Tom';
 // import Terri from './components/Terri';
 // import Nancy from './components/Nancy';
+import MetaTags from 'react-meta-tags';
 
 
 class App extends React.Component {
