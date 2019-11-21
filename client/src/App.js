@@ -21,6 +21,14 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
+        <MetaTags>
+          <title>Riverside Art Center</title>
+          <meta id="meta-description" name="description" content="General Assembly UXDI/SEI joint project" />
+          <meta id="og-title" property="og:title" content="Riverside Art Center" />
+          <meta id="og-image" property="og:image" content="https://i.imgur.com/5fNxN0a.png" />
+
+        </MetaTags>
+
         <Header />
 
         <Route exact path="/" render={() => <Home />} />
