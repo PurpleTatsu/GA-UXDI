@@ -232,11 +232,14 @@ nav {
   align-items: center;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .header-flex {
     display: inherit;
   }
 
+  .header-flex li{
+    margin: 0 15px;
+  }
   .bars {
     width: 30px;
   }
@@ -558,18 +561,25 @@ nav {
 
 .footer-content p {
   font-family: Rufina;
-  margin: 2px;
+  margin: 3px auto;
 }
 
 .footer-content:first-child{
-  margin-left: 10px;
+  margin-left: 60px;
 }
+.footer-content:nth-child(4) {
+margin: 0 5px;
+}
+.footer-content:nth-child(5) {
+  text-align: center;
+}
+
 
 .footer-content input {
   height: 25px;
   border-radius: 19.5px;
   border: solid 2px black;
-  width: 100%;
+  width: 87%;
   margin-bottom: 10px;
   font-family: Rufina;
   padding: 0 0 0 17px
