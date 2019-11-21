@@ -8,10 +8,10 @@ export default function Header(props) {
 
       <a href="#main-menu"
         id="main-menu-toggle"
-        class="menu-toggle">
-        <div class="bars marg-top"></div>
-        <div class="bars"></div>
-        <div class="bars"></div>
+        className="menu-toggle">
+        <div className="bars marg-top"></div>
+        <div className="bars"></div>
+        <div className="bars"></div>
       </a>
 
       <div className="align">
@@ -20,10 +20,10 @@ export default function Header(props) {
         </Link>
       </div>
 
-      <nav id="main-menu" class="main-menu" aria-label="Main menu">
+      <nav id="main-menu" className="main-menu" aria-label="Main menu">
         <a href="#main-menu-toggle"
           id="main-menu-close"
-          class="menu-close"
+          className="menu-close"
           aria-label="Close main menu">
           <span>x</span>
         </a>
@@ -40,8 +40,8 @@ export default function Header(props) {
         </ul>
       </nav>
       <a href="#main-menu-toggle"
-        class="backdrop"
-        tabindex="-1"
+        className="backdrop"
+        tabIndex="-1"
         aria-hidden="true" hidden></a>
     </div>
   )

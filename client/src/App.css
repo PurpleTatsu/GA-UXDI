@@ -232,11 +232,14 @@ nav {
   align-items: center;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .header-flex {
     display: inherit;
   }
 
+  .header-flex li{
+    margin: 0 15px;
+  }
   .bars {
     width: 30px;
   }
@@ -282,6 +285,9 @@ nav {
   .footer-content input {
     width: 75% !important;
   }
+  /* .footer-content button{
+    margin-left: 40%;
+  } */
 
   .all-artist-wrapper {
     grid-template-columns: 1fr !important;
@@ -550,19 +556,33 @@ nav {
   margin-block-end: 2em;
   margin-block-start: 2em;
   font-family: Rufina;
+  margin-bottom: 10px;
 }
 
 .footer-content p {
   font-family: Rufina;
+  margin: 3px auto;
 }
+
+.footer-content:first-child{
+  margin-left: 60px;
+}
+.footer-content:nth-child(4) {
+margin: 0 5px;
+}
+.footer-content:nth-child(5) {
+  text-align: center;
+}
+
 
 .footer-content input {
   height: 25px;
   border-radius: 19.5px;
   border: solid 2px black;
-  width: 100%;
+  width: 87%;
   margin-bottom: 10px;
   font-family: Rufina;
+  padding: 0 0 0 17px
 }
 
 .footer-content button {
@@ -571,8 +591,8 @@ nav {
   border: solid 2px black;
   font-family: Rufina;
   position: relative;
-  left:35%
-  
+  left:35%;
+  margin: auto;
 }
 
 
@@ -587,6 +607,7 @@ nav {
   margin-left: 10px;
   margin-right: 10px;
 }
+
 
 #instagram:hover {
   background-color: #E64789;
@@ -616,6 +637,12 @@ nav {
   background-color: #ffffff;
   margin: 0 auto;
   text-align: center;
+  transition: transform 0.3s linear;
+}
+.rectangle:hover{
+  box-shadow: 0 2px 15px -4px black;
+  transform: translateY(4px);
+
 }
 
 .rectangle img {
