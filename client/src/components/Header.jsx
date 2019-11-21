@@ -11,7 +11,9 @@ export default function Header(props) {
         </Link>
       </div>
       <nav>
-        <h2>Home</h2>
+        <Link to="/">
+          <h2>Home</h2>
+        </Link>
         <h2>About</h2>
         <Link to="/artists">
           <h2>Our Artists</h2>
